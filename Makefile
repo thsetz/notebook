@@ -1,0 +1,3 @@
+reinstall:
+	npm ci
+

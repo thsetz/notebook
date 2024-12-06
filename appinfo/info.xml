@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+	<id>notebook</id>
+	<name>Note Book</name>
+	<summary>xx</summary>
+	<description>xx</description>
+	<version>1.1.0</version>
+	<licence>agpl</licence>
+	<author mail="xx@xx.de" homepage="">xxx</author>
+	<namespace>NoteBook</namespace>
+	<category>multimedia</category>
+	<bugs>http://xx.de</bugs>
+	<dependencies>
+		<nextcloud min-version="29" max-version="29"/>
+	</dependencies>
+	<navigations>
+		<navigation>
+			<id>notebook</id>
+			<name>Note Book</name>
+			<route>notebook.page.index</route>
+			<icon>app.svg</icon>
+			<type>link</type>
+		</navigation>
+	</navigations>
+</info>
